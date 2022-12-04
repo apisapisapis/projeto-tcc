@@ -36,9 +36,9 @@ export default function Depressao(){
             <Linha1 />
 
             <Text style={{fontSize: 14, marginTop: 10, textAlign: "justify", margin: 15}}> 
-            Essa leitura te ajudará a compreender melhor como a sua mente se 
-            comporta durante uma situação de ansiedade no ambiente escolar, te ensinando e propondo
-            atitudes e exercícios para controlá-la.
+            Mais do que sentir-se mal ou com uma sensação de vazio, a depressão é uma doença que pede atenção e tratamento. No entanto, junto com toda atuação multidisciplinar, o mindfulness no tratamento da depressão pode funcionar como ferramenta para melhorar os sintomas da doença.
+
+Antes de mais nada, é importante entender que depressão é algo sério. “Ela tem um diagnóstico amplo, caracterizado por um humor deprimido e perda de prazer nas  atividades do dia a dia. Esse sentimento causa grande comprometimento da saúde, bem-estar e qualidade de vida do paciente”, comenta a naturóloga pós-graduada em neurociência Joana Carreirão, terapeuta do Zenklub (plataforma de saúde emocional e desenvolvimento pessoal).
             </Text>
 
             <Text style={{fontSize: 18, marginTop: 10, marginLeft: 15}}> Autor do Texto </Text>
@@ -51,7 +51,7 @@ export default function Depressao(){
             </Text>
 
             <Box2>
-                <TouchableOpacity>
+                <TouchableOpacity onPress={()=> navigation.navigate('Leitura2')}>
                     <Leitura />
                 </TouchableOpacity>
             </Box2>

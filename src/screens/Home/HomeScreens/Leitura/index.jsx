@@ -6,7 +6,7 @@ import { useNavigation } from '@react-navigation/native';
 import { Container, Box, Box1, Linha1, Linha2, Box2 } from "./styles";
 
 
-export default function Leitura(){
+export default function Leitura1(){
 
     const navigation = useNavigation();
 
@@ -29,8 +29,8 @@ export default function Leitura(){
             </Text>
 
             <Text style={{fontSize: 18, marginTop: 10, marginLeft: 15, fontWeight: "bold"}}> O Que É Autocontrole Emocional? </Text>
-
-            <Text style={{fontSize: 14, marginTop: 10, textAlign: "justify", margin: 15}}>
+                <Linha1 />
+            <Text style={{fontSize: 16, marginTop: 10, textAlign: "justify", margin: 15}}>
             Autocontrole emocional é o atributo que torna uma pessoa capaz de dominar as próprias emoções ou os impulsos decorrentes dessas emoções.
 
 Isso porque as emoções, em si, não podem ser controladas, pois são reações espontâneas e automáticas a uma determinada situação – seja ela real, ou não.
@@ -47,8 +47,8 @@ Significa que, para exercer o autocontrole, é preciso diminuir ou deixar a impu
             </Text>
 
             <Text style={{fontSize: 18, marginTop: 10, marginLeft: 15, fontWeight: "bold"}}> Qual A Importância Do Autocontrole? </Text>
-
-            <Text style={{fontSize: 14, marginTop: 10, textAlign: "justify", margin: 15}}>
+            <Linha2 />
+            <Text style={{fontSize: 16, marginTop: 10, textAlign: "justify", margin: 15}}>
             Desenvolver o autocontrole permite a adaptação profissional – e pessoal – a diferentes situações, levando a respostas adequadas e moderadas.
 
 Graças ao autocontrole, é possível abrir mão de rápidos momentos de satisfação em prol de um bem maior, que inclua toda uma família, departamento ou comunidade.
@@ -69,6 +69,34 @@ Como componente dessa área, o autocontrole colabora para o autoconhecimento, po
 
 Assim, quem busca por essa ferramenta acaba descobrindo os gatilhos que desestabilizam suas emoções e produzem respostas negativas, o que dá a chance de manipular o cenário para mudar sua resposta de costume.
             </Text>
+
+            <Text style={{fontSize: 18, marginTop: 10, marginLeft: 15, fontWeight: "bold"}}> Dicas De Como Manter O Autocontrole </Text>
+            <Linha2 />
+<Text style={{fontSize: 16, marginTop: 10, textAlign: "justify", margin: 15}}>
+Quando o assunto é autodisciplina, há alguns pontos que merecem nossa atenção.
+
+Ao contrário do que pode parecer, exercer o autocontrole exige um repertório diferenciado, orientado à situação e ao comportamento social esperado de cada um.
+
+Nos dias de hoje, desempenhamos mais de um papel, de acordo com o ambiente e a proximidade que mantemos com as pessoas ao redor.
+
+E o autocontrole precisa estar alinhado a esse papel.
+
+Uma mulher de 30 anos, por exemplo, pode exercer a função de profissional ou empresária no trabalho, de mãe e esposa em casa, de estudante em uma universidade, etc.
+
+Para cada um desses papéis, ela recorre a um tipo de autodisciplina, já que sua postura em casa, com certeza, será diferente da postura no trabalho e na faculdade.
+
+Analisando essa questão, um artigo publicado na Harvard Business Review citou três razões principais que nos fazem perder o autocontrole:
+
+Autocontrole é um recurso cognitivo finito
+Diferentes tipos de autocontrole necessitam dos mesmos recursos
+Exercer autocontrole pode afetar negativamente o autocontrole futuro se não for renovado.
+Ou seja, é necessário repor nossas fontes de autodisciplina, o que explica por que a probabilidade de reações impulsivas aumenta quando estamos sempre agindo sob pressão.
+
+Então, nossa dica inicial é que você trabalhe para repor o autocontrole, descansando sua mente, focando no cenário presente e diminuindo a pressão e preocupações do dia a dia.
+
+A seguir, confira mais recomendações para manter o autocontrole em diferentes situações.
+</Text>
+
 
             </ScrollView>
 

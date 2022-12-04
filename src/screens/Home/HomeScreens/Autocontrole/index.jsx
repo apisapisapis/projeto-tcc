@@ -1,7 +1,7 @@
 import React from "react";
 import { ScrollView, Text, TouchableOpacity } from "react-native";
 import { Container, Box, Box1, Linha1, Linha2, Box2 } from "./styles";
-
+import { Ionicons } from '@expo/vector-icons'
 import Flecha from '../../../../../assets/icons/flecha.svg'
 import Save from '../../../../../assets/icons/save.svg'
 import Mulher from '../../../../../assets/icons/auto1.svg'
@@ -24,7 +24,9 @@ export default function Autocontrole( ){
                     <Flecha />
                 </TouchableOpacity>
                 <Text style={{fontSize:20}}> Detalhes da leitura </Text>
-                <Save />         
+
+                <Save />
+    
             </Box> 
 
             <Box1>

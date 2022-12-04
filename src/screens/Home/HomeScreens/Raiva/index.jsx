@@ -51,7 +51,7 @@ export default function Raiva(){
             </Text>
 
             <Box2>
-                <TouchableOpacity>
+                <TouchableOpacity onPress={()=> navigation.navigate('Leitura1')}>
                     <Leitura />
                 </TouchableOpacity>
             </Box2>
