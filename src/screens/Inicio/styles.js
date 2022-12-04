@@ -22,24 +22,24 @@ export const Texto = styled.Text`
     font-weight: 300;
     color: #FFF;
     text-align: center;
-    padding-top: 2%;
+    margin-top: 0%;
 `;
 
 export const Logo = styled.View`
     flex: 1;
     align-items: center;
-    padding-top: 10%;
+    margin-top: 10%;
 `;
 
 export const Botao = styled.View`
     flex: 1;
     align-items: center;
-    padding-top: 15%;
+    margin-top: 10%;
 `;
 
 export const Imagem = styled.View`
     flex: 1;
     align-items: flex-start;
     justify-content: center;
-    padding-top: 65%;
+    margin-top: 65%;
 `;

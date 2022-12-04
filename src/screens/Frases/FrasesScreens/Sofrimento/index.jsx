@@ -21,8 +21,10 @@ export default function Sofrimento(){
                     <Flecha />
                 </TouchableOpacity>
             </Seta>
-            
+
+            <Container2 >
             <Homem />
+            </Container2 >
 
             <Container1> 
                 

@@ -19,14 +19,14 @@ export const Box1 = styled.View`
 
 export const Linha1 = styled.View`
     background-color: #A762FF;
-    margin-left: 5px;
+    margin-left: 5%;
     width: 83px;
     height: 3px;
 `;
 
 export const Linha2 = styled.View`
     background-color: #A762FF;
-    margin-left: 5px;
+    margin-left: 4%;
     width: 125px;
     height: 3px;
 `;
@@ -37,4 +37,6 @@ export const Box2 = styled.View`
     margin-top: 5%;
     padding-bottom: 10%;
 `;
+
+
 

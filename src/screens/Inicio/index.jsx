@@ -7,7 +7,7 @@ import CalmClass from '../../../assets/icons/calmclass.svg';
 import Mulher from '../../../assets/icons/mulher.svg';
 import Comecar from '../../../assets/icons/comecar.svg';
 
-import { Container, Texto, Logo, Botao, Imagem, Texto1 } from './styles';
+import { Container, Texto, Logo, Botao, Imagem, Texto1, Roxo } from './styles';
 
 export default () => {
 
@@ -45,6 +45,8 @@ export default () => {
             </TouchableOpacity>
 
             </Botao>
+
+            
 
             </Container>
 

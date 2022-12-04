@@ -10,7 +10,7 @@ import Leitura from '../../../../../assets/icons/leitura.svg'
 import { useNavigation } from '@react-navigation/native';
 
 
-export default function Autocontrole(){
+export default function Autocontrole( ){
 
     const navigation = useNavigation();
 
@@ -32,27 +32,27 @@ export default function Autocontrole(){
                 <Mulher />
             </Box1>
 
-            <Text style={{fontSize: 18, marginTop: 10}}> Descrição </Text>
+            <Text style={{fontSize: 18, marginTop: 10, marginLeft: 15}}> Descrição </Text>
             <Linha1 />
 
-            <Text style={{fontSize: 14, marginTop: 10, textAlign: "justify", padding: 10}}> 
+            <Text style={{fontSize: 14, marginTop: 10, textAlign: "justify", margin: 15}}> 
             Essa leitura te ajudará a compreender melhor como a sua mente se 
             comporta durante uma situação de ansiedade no ambiente escolar, te ensinando e propondo
             atitudes e exercícios para controlá-la.
             </Text>
 
-            <Text style={{fontSize: 18, marginTop: 10}}> Autor do Texto </Text>
+            <Text style={{fontSize: 18, marginTop: 10, marginLeft: 15}}> Autor do Texto </Text>
             <Linha2 />
 
-            <Text style={{fontSize: 14, marginTop: 10, textAlign: "justify", padding: 10}}>
+            <Text style={{fontSize: 14, marginTop: 10, textAlign: "justify", margin: 15}}>
                 Lucas Vinícius Gabrielli, um dos desenvolvedores do CalmClass, possui problemas de ansiedade
                 e foi em busca de profissionais para criar seu próprio embasamento sobre 
                 qual a melhor forma de enfrentar a ansiedade.
             </Text>
 
             <Box2>
-                <TouchableOpacity>
-                    <Leitura />
+                <TouchableOpacity onPress={ () => navigation.navigate('Leitura') } >
+                    <Leitura  />
                 </TouchableOpacity>
             </Box2>
 

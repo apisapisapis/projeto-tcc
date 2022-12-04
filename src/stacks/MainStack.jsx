@@ -18,6 +18,7 @@ import Pausa from '../screens/Frases/FrasesScreens/Pausa';
 import Perfeicao from '../screens/Frases/FrasesScreens/Perfeição';
 import Preocupacao from '../screens/Frases/FrasesScreens/Preocupação';
 import Sofrimento from '../screens/Frases/FrasesScreens/Sofrimento';
+import Leitura from '../screens/Home/HomeScreens/Leitura';
 
 
 const Stack = createStackNavigator();
@@ -46,5 +47,6 @@ export default () => (
         <Stack.Screen name="Perfeição" component={Perfeicao} />
         <Stack.Screen name="Preocupação" component={Preocupacao} />
         <Stack.Screen name="Sofrimento" component={Sofrimento} />
+        <Stack.Screen name="Leitura" component={Leitura} />
     </Stack.Navigator>
 )

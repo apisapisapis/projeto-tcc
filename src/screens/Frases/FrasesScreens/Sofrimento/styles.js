@@ -5,6 +5,11 @@ export const Container = styled.SafeAreaView`
     flex: 1;
 `;
 
+export const Container2 = styled.SafeAreaView`
+    background-color: #2C444E;
+    flex: 1;
+`;
+
 export const Seta = styled.View`
     background-color: #2C444E;
     padding-top: 15%;

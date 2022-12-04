@@ -1,12 +1,17 @@
 import styled from 'styled-components/native';
 
 export const Container = styled.SafeAreaView`
-    background-color: #f5c28e;
+    background-color: #ede96d;
     flex: 1;
 `;
 
+export const Imagem = styled.SafeAreaView`
+    flex: 1;
+    align-items: center;
+`;
+
 export const Seta = styled.View`
-    background-color: #f5c28e;
+    background-color: #ede96d;
     padding-top: 15%;
     padding-left: 5%;
 `;

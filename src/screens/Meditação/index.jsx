@@ -1,19 +1,15 @@
-import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+/**
+ * @format
+ */
 
-export default function App() {
+ import { AppRegistry } from 'react-native';
+ import App from './../Meditação/App';
+ import { name as appName } from './../../../app.json';
+
+ export default function Medita() {
   return (
-    <View style={styles.container}>
-      <Text> Em desenvolvimento </Text>
-    </View>
+    <App />
   );
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
+ 
+ AppRegistry.registerComponent(appName, () => App);
